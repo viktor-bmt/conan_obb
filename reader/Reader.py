@@ -20,7 +20,7 @@ class Reader():
                     continue
                 point = point.split()
                 try:
-                    point = [int(coord) for coord in point]
+                    point = [float(coord) for coord in point]
                 except:
                     raise RuntimeError('Incorrect input file format. Only numerical values accepted')
                 if len(point) != 3:
