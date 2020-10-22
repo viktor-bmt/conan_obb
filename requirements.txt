@@ -1,0 +1,2 @@
+pyobb==1.0.2
+pyinstaller==4.0
